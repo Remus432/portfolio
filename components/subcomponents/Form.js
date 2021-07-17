@@ -8,7 +8,7 @@ const Form = () => {
       <input className={styles.input} type="email" placeholder="Your Email" />
       <input className={styles.input} type="text" placeholder="Subject" />
       <textarea className={styles.textarea} placeholder="What do you want to talk about?"></textarea>
-      <button className={styles.submit}>Let's talk!</button>
+      <button className={styles.submit}>Let&apos;s talk!</button>
   </form>
   )
 }

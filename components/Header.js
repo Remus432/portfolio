@@ -26,7 +26,7 @@ const Header = ({ dots, bgImg, bgShape }) => {
           </motion.div>
           <motion.div animate={{ translateX: [-500, 0]}} className={styles.pContainer}>
             <p className={styles.p}>
-            I'm Remus, an 19 year old frontend engineer with a passion for building <span className={styles.highlight}>tools of the future</span>
+            I&apos;m Remus, an 19 year old frontend engineer with a passion for building <span className={styles.highlight}>tools of the future</span>
             </p>
           </motion.div>
         </div>
