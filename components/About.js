@@ -1,4 +1,5 @@
 import * as React from "react"
+import Image from "next/image"
 import Skill from "./subcomponents/Skill"
 import Stats from "./subcomponents/Stats"
 import styles from "../styles/Home.module.sass"
@@ -22,7 +23,7 @@ const About = ({ stats, profile, skills, dev, github, linkedin, cv }) => {
       <div className={styles.about__container}>
         <div>
           <div className={styles.profile}>
-            <img className={styles.headshot} src={profile} />
+            <Image className={styles.headshot} src={profile} width={550} height={300} />
             <a href="/cv.pdf" download>
               <button className={styles.cv}>DOWNLOAD CV <img src={cv} /></button>
             </a>
@@ -30,17 +31,23 @@ const About = ({ stats, profile, skills, dev, github, linkedin, cv }) => {
           <div className={styles.icons}>
             <div className={styles.icon} >
               <a href="https://dev.to/remus432" target="_blank">
-                <motion.img whileHover={{ translateY: -10 }} src={dev} />
+                <motion.div whileHover={{ translateY: -10 }}>
+                  <Image src={dev} height={22} width={55} />
+                </motion.div>
               </a>
             </div>
             <div className={styles.icon}>
               <a href="https://github.com/Remus432" target="_blank">
-                <motion.img whileHover={{ translateY: -10 }} src={github} />
+                <motion.div whileHover={{ translateY: -10 }}>
+                  <Image src={github} height={32} width={55} />
+                </motion.div>
               </a>
             </div>
             <div className={styles.icon}>
               <a href="https://www.linkedin.com/in/remus-buhaianu-25b0a2181/" target="_blank">
-                <motion.img whileHover={{ translateY: -10 }} src={linkedin} />
+                <motion.div whileHover={{ translateY: -10 }}>
+                  <Image src={linkedin} height={32} width={55} />
+                </motion.div>
               </a>
             </div>
           </div>

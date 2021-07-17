@@ -1,4 +1,5 @@
 import * as React from "react"
+import Image from "next/image"
 import { useState, useEffect, useContext } from "react"
 import styles from "../styles/Home.module.sass"
 import { motion } from "framer-motion"
@@ -22,7 +23,7 @@ const Nav = ({ logo }) => {
         scrollPos < 150 ? styles.nav : styles.fixed
       }>
         <Link to="home" smooth={true} duration={800}>
-          <img src={logo} alt="Remus Buhaianu Logo" />
+          <Image src={logo} alt="Remus Buhaianu Logo" width={80} height={80} />
         </Link>
         <ul>
           <li>

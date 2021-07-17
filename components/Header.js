@@ -1,5 +1,6 @@
 import * as React from "react"
 import styles from "../styles/Home.module.sass"
+import Image from "next/image"
 import { motion } from "framer-motion"
 import { useContext, useEffect } from "react"
 import { ThemeContext } from "../context/ThemeContext"
@@ -16,10 +17,11 @@ const Header = ({ dots, bgImg, bgShape }) => {
   return (
     <div ref={ref} name="home" className={styles.container}>
       <header className={styles.header}>
-        <img className={styles.shape} src={bgShape} />
         <div className={styles.flexContainer}>
           <motion.div animate={{ translateX: [-350, 0]}} className={styles.headlineContainer}>
-            <img className={styles.dots} src={dots} />
+            <div className={styles.dots}>
+              <Image src={dots} height={40} width={40} />
+            </div>
             <h1 className={styles.headline}>Hej Allihopa!</h1>
           </motion.div>
           <motion.div animate={{ translateX: [-500, 0]}} className={styles.pContainer}>
@@ -28,7 +30,7 @@ const Header = ({ dots, bgImg, bgShape }) => {
             </p>
           </motion.div>
         </div>
-        <img className={styles.bgImg}  src={bgImg} />
+        <Image className={styles.bgImg}  src={bgImg} height={1250} width={1500} />
       </header>
     </div>
   )

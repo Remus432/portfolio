@@ -1,4 +1,5 @@
 import * as React from "react"
+import Image from "next/image"
 import Form from "./subcomponents/Form"
 import styles from "../styles/Home.module.sass"
 import { useContext, useEffect } from "react"
@@ -19,7 +20,7 @@ const Contact = () => {
       <h2 className={styles.subheadline}>Contact</h2>
       <div className={styles.contact__container}>
         <div className={styles.contact__bg}>
-          <img src="https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626427504/40Z_2105.w023.n001.595B.p1.595_mjzpca.jpg"/>
+          <Image src="https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626427504/40Z_2105.w023.n001.595B.p1.595_mjzpca.jpg" height={605} width={1100} />
         </div>
         <div className={styles.contact__text}>
           <p>Wanna say hi?</p>
