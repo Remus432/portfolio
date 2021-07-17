@@ -1,16 +1,78 @@
-html,
-body {
-  padding: 0;
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: 'Manrope', sans-serif;
+  background-color: #0873FF;
+  overflow-x: hidden;
+}
+  
+@font-face {
+  font-family: "Lovelo";
+  src: url("/fonts/Lovelo/lovelo.otf");
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+#css {
+  border: 5px solid #1572B6
+}
+
+#css > div {
+  border: 5px solid #1572B6;
+  background-color: #33A9DC;
+} 
+  
+#react {
+  border: 5px solid #61DAFB
+}
+
+#react img {
+  background-color: #08698E;
+  border: 2.5px solid #61DAFB;
+  border-radius: 50%;
+  padding: .2rem;
+}
+
+#react > div {
+  border: 5px solid #08698E!important;
+  background-color: #61DAFB!important;
+}
+
+
+#js {
+  border: 5px solid #F0DB4F;
+}
+
+#js > div {
+  border: 5px solid #D4BB18;
+  background-color: #F0DB4F;
+}
+
+
+#html {
+  border: 5px solid #E44D26;
+}
+
+#html > div {
+  border: 5px solid #C54929;
+  background-color: #E44D26;
+}
+
+.hovered {
+  color: red;
 }

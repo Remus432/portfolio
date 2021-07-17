@@ -1,0 +1,80 @@
+.about
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  width: 90%
+  margin: auto
+  
+.profile
+  position: relative
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  & a
+    display: inline-block
+    width: 100%
+
+  &::before
+    content: ""
+    width: 22rem
+    height: 22rem
+    border-radius: 50%
+    border: 10px solid $main
+    background-color: $light-main
+    position: absolute
+    top: 22.5%
+    left: 47%
+    transform: translate(-50%)
+    z-index: -1
+
+.headshot
+  width: 550px
+
+.cv
+  background-color: $main
+  border: 0
+  border-radius: 3rem
+  padding: 1.5rem
+  color: #fff
+  cursor: pointer
+  width: 50%
+  margin: auto
+  font-family: "Lovelo"
+  display: flex
+  justify-content: center
+  align-items: center
+
+  & img
+    width: 15px
+    margin-left: 1rem
+
+.icons
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 4rem
+
+.icon
+  cursor: pointer
+  position: relative
+  display: inline-block
+  margin: 0 2rem
+
+  &:nth-of-type(1)::before
+    top: -50%
+    
+
+  &::before
+    content: ""
+    position: absolute
+    top: -22.5%
+    left: 50%
+    transform: translate(-50%)
+    width: 55px
+    height: 50px
+    border-radius: 50%
+    background-color: $main
+    z-index: -1
+    transform-origin: center

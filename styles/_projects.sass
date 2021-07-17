@@ -1,0 +1,51 @@
+.projects
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin: 4rem auto
+  width: 90%
+
+
+.project
+  width: 400px
+  margin: 4rem 0
+  height: 250px
+  position: relative
+  border-radius: 10px
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4))
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-around
+  cursor: pointer
+
+  &__name
+    margin-top: 4rem
+    color: #fff
+    font-size: 3rem
+    font-family: "Lovelo"
+
+  &__thumbnail
+    width: 100%
+    height: 100%
+    border-radius: 10px
+    position: absolute
+    z-index: -1
+
+  &__links
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 4rem
+
+.btn__default
+  background-color: $main
+  border: none
+  border-radius: 40px
+  padding: 1.5rem 2rem
+  margin-left: 2rem
+  color: #fff
+
+.btn__reverse
+  color: $main
+  

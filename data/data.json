@@ -1,0 +1,81 @@
+{
+  "images": {
+    "logo": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213760/portfolio/Group_43_p5cyrd.svg",
+    "bgShape": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213795/portfolio/me-removebg-preview_1_vzqe9k.svg",
+    "dots": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625214036/portfolio/Dots_izyibx.svg",
+    "bgImg": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213808/portfolio/portfolio_jazlwm.png",
+    "profile": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625214012/portfolio/me-removebg-preview_1_ftai6t.png",
+    "github": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625214085/portfolio/github-original_d2z3ho.svg",
+    "linkedin": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625214085/portfolio/linkedin-plain_xf3cnx.svg",
+    "dev": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625214085/portfolio/dev_to_icon_136699_peru3j.svg",
+    "cv": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626260997/portfolio/surface1_g6kphy.svg",
+    "github_dark": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626261575/portfolio/github-original_uzxesb.svg",
+    "linkedin_dark": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626261575/portfolio/linkedin-plain_sbs9ss.svg",
+    "dev_dark": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626261575/portfolio/dev_to_icon_136699_lfak0h.svg"
+  },
+  "skills": [
+    {
+      "technology": "css",
+      "icon": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213902/portfolio/css3-original_vwjaor.svg",
+      "description": "Combining CSS with the power of SASS, I create responsive and interactive UIs using concepts such as grid, flex, transitions, animations, and much more while focusing on reusability."
+    },
+    {
+      "technology": "react",
+      "icon": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213902/portfolio/react-original_vgxlef.svg",
+      "description": "Harnessing the power of the Virtual DOM and of the MVC pattern, I use React to build dynamic and fast interfaces to provide the best user experience possible"
+    },
+    {
+      "technology": "js",
+      "icon": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213902/portfolio/javascript-original_n2uhrx.svg",
+      "description": "Developing various apps using JavaScript by implementing concepts such as functional programming and OOP and exploiting the powerful APIs provided by it."
+    },
+    {
+      "technology": "html",
+      "icon": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626263853/portfolio/html5-original_oe9juj.svg",
+      "description": "Structuring and writing meaningful and clean HTML, while incorporating BEM metholody, so I can build SEO-optimized HTML pages that'll be easily understood by other developers"
+    }
+  ],
+  "stats": [
+    {
+      "numb": "+2",
+      "text": "years of experience",
+      "shape": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213984/portfolio/Rectangle_114_djbhxj.svg"
+    },
+    {
+      "numb": "+50000",
+      "text": "lines of code",
+      "shape": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213984/portfolio/Rectangle_114_djbhxj.svg"
+    },
+    {
+      "numb": "+50",
+      "text": "projects coded",
+      "shape": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213984/portfolio/Rectangle_114_djbhxj.svg"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Travel to America",
+      "live": "https://usa-travel.vercel.app/",
+      "thumbnail": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626322013/portfolio/usa_m7tqxw.png",
+      "code": "https://github.com/Remus432/usa-travel"
+    },
+    {
+      "name": "Countdown App",
+      "live": "https://countdown-app-eight.vercel.app/",
+      "thumbnail": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626322017/portfolio/Screenshot_11_hosdtp.png",
+      "code": "https://github.com/Remus432/countdown-app"
+    },
+    {
+      "name": "Calculator App",
+      "live": "https://calculator-app-flame.vercel.app/",
+      "thumbnail": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626322015/portfolio/Screenshot_12_npvyef.png",
+      "code": "https://github.com/Remus432/calculator_app"
+    },
+    {
+      "name": "Expense Tracker",
+      "live": "https://react-expense-tracker-ten.vercel.app/",
+      "thumbnail": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1626322021/portfolio/Screenshot_10_imve5k.png",
+      "code": "https://github.com/Remus432/react-expense-tracker"
+    }
+  ]
+}
