@@ -19,8 +19,8 @@ const Project_Card = ({ name, live, thumbnail, code }) => {
       </div>
       <p className={styles.project__name}>{name}</p>
       <div className={styles.project__links}>
-        <motion.a onHoverStart={hoverStart} onHoverEnd={hoverEnd} className={styles.btn__reverse} href={code} target="_blank">View Code</motion.a>
-        <a className={styles.btn__default} href={live} target="_blank">Live Project</a>
+        <motion.a onHoverStart={hoverStart} onHoverEnd={hoverEnd} className={styles.btn__reverse} href={code} rel="noreferrer" target="_blank">View Code</motion.a>
+        <a className={styles.btn__default} href={live} rel="noreferrer" target="_blank">Live Project</a>
       </div>
   </motion.div>
   )

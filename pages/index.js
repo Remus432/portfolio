@@ -15,7 +15,6 @@ export default function Home() {
   return (
     <ThemeContext.Provider value={useReducer(reducer, { activeSection: "" })}>
       <div>
-        <img src="" />
         <Nav logo={images.logo} />
         <Header dots={images.dots} bgImg={images.bgImg} bgShape={images.bgShape} />
         <About stats={stats} skills={skills} cv={images.cv} profile={images.profile} dev={images["dev_dark"]} github={images["github_dark"]} linkedin={images["linkedin_dark"]} />
