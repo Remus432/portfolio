@@ -24,8 +24,8 @@ const Contact = () => {
         </div>
         <div className={styles.contact__text}>
           <p>Wanna say hi?</p>
-          <p>Or perhap you're curious to see if we could work together?</p>
-          <p>If so, get in touch by completing the form - I'm one email away ;)</p>
+          <p>Or perhap you&apos;re curious to see if we could work together?</p>
+          <p>If so, get in touch by completing the form - I&apos;m one email away ;)</p>
         </div>
         <Form />
       </div>

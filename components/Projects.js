@@ -18,8 +18,8 @@ const Projects = ({ projects }) => {
     <motion.div ref={ref} name="projects" className={styles.projects}>
       <h2 className={styles.subheadline}>Projects</h2>
       <div className={styles.projects__grid}>
-        { projects.map(project => {
-          return <Project_Card video={project.video} name={project.name} live={project.live} thumbnail={project.thumbnail} code={project.code} />
+        { projects.map((project, i) => {
+          return <Project_Card key={i} video={project.video} name={project.name} live={project.live} thumbnail={project.thumbnail} code={project.code} />
         }) }
       </div>
     </motion.div>

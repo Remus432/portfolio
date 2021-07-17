@@ -25,7 +25,7 @@ const About = ({ stats, profile, skills, dev, github, linkedin, cv }) => {
           <div className={styles.profile}>
             <Image className={styles.headshot} src={profile} width={550} height={300} />
             <a href="/cv.pdf" rel="noreferrer" download>
-              <button className={styles.cv}>DOWNLOAD CV <img src={cv} /></button>
+              <button className={styles.cv}>DOWNLOAD CV &nbsp;&nbsp;<Image src={cv} height={50} width={50} /></button>
             </a>
           </div>
           <div className={styles.icons}>
@@ -54,10 +54,10 @@ const About = ({ stats, profile, skills, dev, github, linkedin, cv }) => {
         </div>
         <div className={styles.expertise}>
           <div className={styles.skills}>
-            { skills.map(skill => <Skill description={skill.description} technology={skill.technology} icon={skill.icon} />) }
+            { skills.map((skill, i) => <Skill key={i} description={skill.description} technology={skill.technology} icon={skill.icon} />) }
           </div>
           <div className={styles.stats}>
-            { stats.map(stat => <Stats numb={stat.numb} text={stat.text} shape={stat.shape} /> ) }
+            { stats.map((stat, i) => <Stats key={i} numb={stat.numb} text={stat.text} shape={stat.shape} /> ) }
           </div>
         </div>
       </div>
