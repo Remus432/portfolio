@@ -23,7 +23,9 @@ const About = ({ stats, profile, skills, dev, github, linkedin, cv }) => {
       <div className={styles.about__container}>
         <div>
           <div className={styles.profile}>
-            <Image className={styles.headshot} src={profile} width={550} height={300} />
+            <div className={styles.headshot}>
+              <Image className={styles.headshot} src={profile} width={550} height={300} />
+            </div>
             <a href="/cv.pdf" rel="noreferrer" download>
               <button className={styles.cv}>DOWNLOAD CV &nbsp;&nbsp;<Image src={cv} height={50} width={50} /></button>
             </a>

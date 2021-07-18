@@ -30,7 +30,9 @@ const Header = ({ dots, bgImg, bgShape }) => {
             </p>
           </motion.div>
         </div>
-        <Image className={styles.bgImg}  src={bgImg} height={1250} width={1500} />
+        <div className={styles.bgImg}>
+          <Image src={bgImg} height={1250} width={1500} />
+        </div>
       </header>
     </div>
   )
