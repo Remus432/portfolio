@@ -17,7 +17,7 @@
     {
       "technology": "css",
       "icon": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213902/portfolio/css3-original_vwjaor.svg",
-      "description": "Combining CSS with the power of SASS, I create responsive and interactive UIs using concepts such as grid, flex, transitions, animations, and much more while focusing on reusability."
+      "description": "Combining CSS with the power of SASS, I create interactive UIs using concepts such as grid, flex, transitions, animations, and much more while focusing on reusability."
     },
     {
       "technology": "react",
@@ -37,17 +37,17 @@
   ],
   "stats": [
     {
-      "numb": "+2",
+      "numb": "+1",
       "text": "years of experience",
       "shape": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213984/portfolio/Rectangle_114_djbhxj.svg"
     },
     {
-      "numb": "+50000",
+      "numb": "+30000",
       "text": "lines of code",
       "shape": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213984/portfolio/Rectangle_114_djbhxj.svg"
     },
     {
-      "numb": "+50",
+      "numb": "+25",
       "text": "projects coded",
       "shape": "https://res.cloudinary.com/dqmcvtuhi/image/upload/v1625213984/portfolio/Rectangle_114_djbhxj.svg"
     }
